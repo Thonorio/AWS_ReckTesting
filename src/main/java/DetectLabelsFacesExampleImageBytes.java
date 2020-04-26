@@ -8,36 +8,20 @@ import com.amazonaws.services.rekognition.AmazonRekognitionClientBuilder;
 import com.amazonaws.services.rekognition.model.*;
 import com.amazonaws.util.IOUtils;
 
-import com.amazonaws.services.rekognition.model.Image;
-import com.amazonaws.services.rekognition.AmazonRekognition;
-import com.amazonaws.services.rekognition.AmazonRekognitionClientBuilder;
-import com.amazonaws.services.rekognition.model.FaceMatch;
-import com.amazonaws.services.rekognition.model.Image;
-import com.amazonaws.services.rekognition.model.S3Object;
-import com.amazonaws.services.rekognition.model.SearchFacesByImageRequest;
-import com.amazonaws.services.rekognition.model.SearchFacesByImageResult;
-import java.util.List;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.*;
 import java.nio.ByteBuffer;
 import java.util.List;
 
-
 public class DetectLabelsFacesExampleImageBytes {
     public static void main(String[] args) throws Exception {
-
 
         deteckExample();
 
 
     }
 
-
     public static void deteckExample(){
         String photo="src\\main\\resources\\test3.jpg";
-
-
-
 
 
         ByteBuffer imageBytes = null;
