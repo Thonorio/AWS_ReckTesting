@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="AmazonRekognitionImage" />
+        <module name="AWS_ReckTesting" />
         <module name="ImageRecognitionAmazon" />
+        <module name="AmazonRekognitionImage" />
       </profile>
     </annotationProcessing>
   </component>
